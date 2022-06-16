@@ -1,0 +1,37 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: CounterfactualSVDD
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - given-names: Alberto Carlevaro
+    name-particle: Alberto
+    family-names: Carlevaro
+    email: alberto.carlevaro@edu.unige.it
+    affiliation: University of Genoa - CNR IEIIT
+    orcid: 'https://orcid.org/0000-0002-7206-5511'
+  - given-names: Marta Lenatti
+    name-particle: Marta
+    family-names: Lenatti
+    email: marta.lenatti@ieiit.cnr.it
+    affiliation: CNR IEIIT
+identifiers:
+  - type: url
+    value: 'https://github.com/AlbiCarle/CounterfactualSVDD'
+    description: Link to the repository
+repository-code: 'https://github.com/AlbiCarle/CounterfactualSVDD'
+abstract: >+
+  MATLAB and Python code for implementing
+  counterfactual analysis using SVDD (refer to <<A.
+  Carlevaro, M. Lenatti, A. Paglialonga and M.
+  Mongelli, "Counterfactual Building and Evaluation
+  via eXplainable Support Vector Data Description,"
+  in IEEE Access, vol. 10, pp. 60849-60861, 2022,
+  doi: 10.1109/ACCESS.2022.3180026>>).
+
+keywords:
+  - counterfactuals
+  - svdd
+date-released: '2022-06-16'
