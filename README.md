@@ -8,18 +8,33 @@ The results obtained are more than encouraging and suggest that the proposed met
 In this repository you will find MATLAB and Python code for implementing counterfactual analysis using SVDD. Specifically
 
 -) Utils contains the main matlab functions to run the code:
+
     -) TC_SVDD_TRAINING_NEW.m contains the SVDD training algorithm;
+    
     -) TC_SVDD_TEST.m contains the SVDD test algorithm;
+    
     -) KernelMatrix.m contains the script to use kernels functions;
+    
     -) TestObject_N,m contains the code to compute the distance from the center of the SVDD hyperspheres;
+    
     -) FNR_TCSVDD.m contains the code to control the number of false negatives in the classification;
+    
     -) holdoutCVKernTCSVDD.m contains the code to optimize the SVDD hyperparameters
-    -) SquareDist.m is a tool functio.
+    
+    -) SquareDist.m is a tool function.
+    
+    
 -) eXamples contains 
+
     -) an example for extracting counterfactuals from Vehicle Platooning (example.m);
+    
     -) an healthcare dataset example (Diabetes_example.m);
+    
     -) a folder containing the application of CounterfactualSVDD to an smart mobility scenario (MTT).
- -) A brief presentation of the method is reported in Counterfactual_eXplanations.pdf
+    
+    -) A brief presentation of the method is reported in Counterfactual_eXplanations.pdf
+ 
+
 
 Please refer to 
 
